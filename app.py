@@ -19,7 +19,7 @@ def home():
     try:
         conn = get_db_connection()
         conn.close()
-        return "Flask + PostgreSQL is connected successfully!"
+        return "CI/CD Pipeline Working Successfully 🚀"
     except Exception as e:
         return f"Database connection failed: {e}"
 
